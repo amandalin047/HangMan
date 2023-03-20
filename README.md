@@ -5,5 +5,5 @@
 ```
 if __name__ == "__main__"
 ```
-will be executed if the `.py` file is run as a script, but not when it is imprted as in `exe.py` in which the only line of code is `import hangman`.
+    will be executed if the `.py` file is run as a script, but not when it is imprted as in `exe.py` in which the only line of code is `import hangman`.
 - If `python exe.py -t abunchofwords` is run in the terminal, the entire part of the HangMan game will be ommited as I have it under the `if` loop.
