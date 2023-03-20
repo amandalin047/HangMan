@@ -1,6 +1,6 @@
 # A Game of HangMan
 ## Discription
-- This is a program that I wrote awhile back. I've modified it a bit so that it can run with CLI. I just thought it'd be fun to add a little extra to [BrainHack School Taiwan's "Writing scripts in python" module](https://brainhackschool-taiwan.github.io/docs/assignments/Writing_scripts_in_python.html).
+- This is a program that I wrote a while back. I've modified it a bit so that it can run with CLI. I just thought it'd be fun to add a little extra to [BrainHack School Taiwan's "Writing scripts in python" module](https://brainhackschool-taiwan.github.io/docs/assignments/Writing_scripts_in_python.html).
 - There's nothing fancy about this toy Python program. I just thout I could demonstrate that the code within the conditional
 ```
 if __name__ == "__main__"
