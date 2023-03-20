@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[155]:
 import random
 import copy
 import getpass
@@ -126,6 +122,12 @@ class GAMES:
     def hangman_instructions(self):
         print('This is a classic Hangman game whose rules I assume everyone is familiar with.')
         print('The words are loaded from a text file, and all letters are lowercase.')
+        print('In the next page, you will be prompted to select one of 4 levels')
+        print('the harder the level, the longer the word, and the more attempts you will have, though.')
+        print('The word to be guessed wll be randomly selected and shown in asterisks *.')
+        print('Your goal is to guess what that word is one letter at a time by typing into the terminal the letter you think')
+        print('the word has; the letters you type will not be shown on the screen.')
+        print('You can keep guessing until all body parts of HangMan is hown on the screen ^^')
         print('Press any key to continue...')
         k = input()
         os.system('clear')
@@ -278,5 +280,3 @@ E.user_guess()
 while W.continue_game() == True: 
     E.user_guess()
 print('You have exited the the whole game >TAT<')
-
-# In[ ]:
