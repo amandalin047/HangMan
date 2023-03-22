@@ -261,6 +261,11 @@ parser.add_argument('-t', '--text', dest='txt', type=str, required=True,
 args = parser.parse_args()
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-t', '--text', dest='txt', type=str, required=True,
+                     help='Provide a text file or the path to it')
+    args = parser.parse_args()
+    
     rep = 0
     W = WORD(args.txt, rep)
     W.user_guess()
