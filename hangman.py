@@ -127,7 +127,7 @@ class GAMES:
         print('The word to be guessed wll be randomly selected and shown in asterisks *.')
         print('Your goal is to guess what that word is one letter at a time by typing into the terminal the letter you think')
         print('the word has; the letters you type will not be shown on the screen.')
-        print('You can keep guessing until all body parts of HangMan is hown on the screen lmao.)
+        print('You can keep guessing until all body parts of HangMan is hown on the screen lmao.')
         print('Press any key to continue...')
         k = input()
         os.system('clear')
