@@ -2,6 +2,7 @@ import random
 import copy
 import getpass
 import os
+import argparse
 
 def get_words(txt, minmaxlen):
     f = open(txt, 'r')
@@ -254,7 +255,6 @@ class ENCRYPT(GAMES):
         else:
             print('NOOOPE!!!')
 
-import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--text', dest='txt', type=str, required=True,
                      help='Provide a text file or the path to it')
