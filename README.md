@@ -1,6 +1,7 @@
 # A Game of HangMan
 ## Discription
 - This is a program that I wrote a while back. I've modified it a bit so that it can run with CLI. I just thought it'd be fun to add a little extra to [BrainHack School Taiwan's "Writing scripts in python" module](https://brainhackschool-taiwan.github.io/docs/assignments/Writing_scripts_in_python.html).
+- To run the game, download `hangman.py` and `abunchofwords.txt`, then type `python hangman.py -t abunchofwords.txt` in the terminal.
 - There's nothing fancy about this toy Python program. I just thout I could demonstrate that the code within the conditional
 `if __name__ == "__main__"` will be executed if the `hangman.py` file is run as a script, but not when it is imprted as in `exe.py` in which the only line of code is `import hangman`.
 - If `python exe.py -t abunchofwords.txt` is run in the terminal, the entire part of the HangMan game will be ommited as I have it under the `if` loop.
